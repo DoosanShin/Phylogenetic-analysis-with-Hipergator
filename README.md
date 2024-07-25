@@ -210,4 +210,7 @@ module unload module_name
 
 # List loaded modules
 module list
+
+#checking allocated resources
+slurmInfo -g jkim6
 ```
