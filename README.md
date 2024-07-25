@@ -182,7 +182,7 @@ megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_a
 ```
 
 
-**4. Generation of Phylogenetic Tree**
+***4. Generation of Phylogenetic Tree***
 
 Submit a SLURM job with `sbatch generate_tree.sh`
 
