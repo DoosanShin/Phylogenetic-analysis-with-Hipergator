@@ -1,4 +1,4 @@
-The message  
+The message in the .err file
 
 "INFO: underlay of /etc/localtime required more than 50 (86) bind mounts"  
 
