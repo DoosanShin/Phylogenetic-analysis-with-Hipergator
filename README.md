@@ -177,4 +177,4 @@ output_tree_model="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_
 megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao -d $input_aln -o $output_tree_model
 ```
 Submit a SLURM job with
-sbatch mega_model_selection.sh
+sbatch "mega_model_selection.sh"
