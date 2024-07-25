@@ -65,10 +65,14 @@ Xvfb :${DISPLAY_ID} -screen 0 1024x768x16 &
 
 # Run MUSCLE alignment
 megacc -a "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/muscle_align_protein.mao" -d "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/Tomato_P450_with_ref.fasta" -o "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg"
+```
 
 3. Model Selection for Phylogenetic Tree
+   
 Use MEGA-CC to find the best model for the phylogenetic tree.
+
 **SLURM Script: `mega_model_selection.sh`**
+```
 #!/bin/bash
 #SBATCH --job-name=phylo_model               # Job name
 #SBATCH --output=phylo_model.out             # Standard output log
