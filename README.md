@@ -101,7 +101,8 @@ module list
 
 ## Workflow
 
-1. Original File Format Change
+***1. Original File Format Change***
+
 Sequence alignment with MEGA11 requires FASTA format to run. Prepare protein sequences in the following format in a .fasta file. (The file format can be changed by typing .fasta at the end of the file name)
 
 **Example** 
@@ -112,6 +113,7 @@ MEFVSMLCLFTFISLTLLLIHSIFKFLAFASKKLPLPPGTLGLPYIGETFQLYSQNPNVFFASKVKKYGSIFKTYILGCP
 MANTKDSYHIITMDTKESSIPSLPMKEIPGDYGVPFFGAIKDRYDFHYNQGADEFFRSRMKKYDSTVFRTNVPPGPFNARNSKVVVLVDAVSYPILFDNSQVDKENYFEGTFMSSPSFNGGYKVCGFLGTSDPKHTTLKGLFLSTLTRLHDKFIPIFTTSITSMFTSLEKELSEKGTSYFNPIGDNLSFEFLFRLFCEGKNPIDTSVGPNGPKIVDKWVFLQLAPLISLGLKFVPNFLEDLVLHTFPLPYILVKRDHQKLYNAFYNSMKDILDEAEKLGVKRDEACHNFVFLAGFNSYGGLKVFFPSLIKWIGTSGPSLHARLVKEIRTAVKEAGGVTLSAIDKMPLVKSVVYETLRMDPPVPFQTVKARKNIIITNHESSFLIKKDELIFGYQPLATKDSKVFKNAEEFNPDRFVGGGEKLLKYVYWSNGKEIDNPSVNDKQCPGKDLIVLMGRLLVVEFFMRYDTFEVEFGKLLLGSKVTFKSLTKATS
 ```
 ***2. Sequence Alignment***
+
 Align protein sequences using the MUSCLE algorithm.
 
 For alignment, you need a FASTA sequence file, a MAO file, and a SLURM script to submit the job. 
@@ -146,7 +148,7 @@ Submit a SLURM job with `sbatch muscle_align.sh`
 
 
 
-3. Model Selection for Phylogenetic Tree
+***3. Model Selection for Phylogenetic Tree***
    
 Use MEGA-CC to find the best model for the phylogenetic tree.
 
