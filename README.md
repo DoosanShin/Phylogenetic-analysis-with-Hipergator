@@ -42,6 +42,7 @@ MANTKDSYHIITMDTKESSIPSLPMKEIPGDYGVPFFGAIKDRYDFHYNQGADEFFRSRMKKYDSTVFRTNVPPGPFNAR
 Align protein sequences using the MUSCLE algorithm.
 
 **SLURM Script: `muscle_align.sh`**
+```
 #!/bin/bash
 #SBATCH --job-name=muscle_align
 #SBATCH --output=muscle_align.out
@@ -90,3 +91,4 @@ output_tree_model="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_
 
 # Run MEGA to find the best model using the specified MAO file
 megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao -d $input_aln -o $output_tree_model
+```
