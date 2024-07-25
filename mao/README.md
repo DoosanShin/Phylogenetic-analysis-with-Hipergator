@@ -7,3 +7,4 @@ Select Phylogeny | Construct/Test Neighbor-Joining Tree from the main MEGA windo
 The Analysis Preferences window will be shown. We will use the default options so in this dialog, just click the Save Settings button.
 When prompted to save the .mao file, navigate to your Documents\MEGA X\Examples folder and save the file as infer_NJ_nucleotide.mao.
 Close MEGA X.
+<img width="862" alt="Screenshot 2024-07-25 at 3 50 53 PM" src="https://github.com/user-attachments/assets/0498a3ed-8c76-4443-ab1e-c6cf4737476e">
