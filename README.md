@@ -1,4 +1,4 @@
-# Phylogenetic-analysis-with-Hipergator
+# Phylogenetic analysis with Hipergator
 
 This repository contains scripts and documentation for generating a phylogenetic tree using protein sequences with MEGA-CC on UF HiPerGator.
 
