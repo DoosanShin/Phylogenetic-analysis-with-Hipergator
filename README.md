@@ -33,91 +33,69 @@ Here you can check the files, upload, download, delete, etc., within the directo
 
 # Change directory
 cd /path/to/directory
-echo "Changed directory to /path/to/directory"
 
 # List files in the directory
 ls -l
-echo "Listed files in the directory"
 
 # Print working directory
 pwd
-echo "Current working directory is $(pwd)"
 
 # Check disk usage
 df -h
-echo "Checked disk usage"
 
 # Check memory usage
 free -h
-echo "Checked memory usage"
 
 # Display system information
 uname -a
-echo "Displayed system information"
 
 # View the beginning of a file
 head filename.txt
-echo "Displayed the beginning of filename.txt"
 
 # View the end of a file
 tail filename.txt
-echo "Displayed the end of filename.txt"
 
 # View a specific number of lines from a file
 head -n 20 filename.txt
-echo "Displayed the first 20 lines of filename.txt"
 
 # Search for a pattern in a file
 grep "pattern" filename.txt
-echo "Searched for 'pattern' in filename.txt"
 
 # Copy a file
 cp source.txt destination.txt
-echo "Copied source.txt to destination.txt"
 
 # Move a file
 mv source.txt /new/path/source.txt
-echo "Moved source.txt to /new/path/"
 
 # Remove a file
 rm filename.txt
-echo "Removed filename.txt"
 
 # Create a directory
 mkdir new_directory
-echo "Created new_directory"
 
 # Remove a directory
 rmdir new_directory
-echo "Removed new_directory"
 
 # Submit a SLURM job
 sbatch job_script.sh
-echo "Submitted SLURM job using job_script.sh"
 
 # Check the status of jobs
 squeue -u $USER
-echo "Checked the status of jobs for user $USER"
 
 # Cancel a job
 scancel job_id
-echo "Cancelled job with job_id"
 
 # Wait for a process to finish
 wait
-echo "Waited for processes to finish"
 
 # Load a module
 module load module_name
-echo "Loaded module_name"
 
 # Unload a module
 module unload module_name
-echo "Unloaded module_name"
 
 # List loaded modules
 module list
-echo "Listed loaded modules"
 ```
 
 
