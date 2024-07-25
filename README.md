@@ -41,6 +41,9 @@ MANTKDSYHIITMDTKESSIPSLPMKEIPGDYGVPFFGAIKDRYDFHYNQGADEFFRSRMKKYDSTVFRTNVPPGPFNAR
 2. Sequence Alignment
 Align protein sequences using the MUSCLE algorithm.
 
+For alignment, you need a FASTA sequence file, a MAO file, and a SLURM script to submit the job. 
+To get the MAO file, the instructions are located in the [mao directory](./mao) in this repository.
+
 **SLURM Script: `muscle_align.sh`**
 ```
 #!/bin/bash
