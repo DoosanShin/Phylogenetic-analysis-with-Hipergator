@@ -4,7 +4,7 @@ This repository contains scripts and documentation for generating a phylogenetic
 
 ## Directory Structure
 
-- `scripts/`: Contains SLURM job scripts and other automation scripts.
+- `scripts/`: Contains SLURM job scripts.
 - `mao/`: Contains MAO files for assigning detailed job parameters.
 - `results/`: Contains analysis results.
 
