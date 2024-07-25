@@ -119,6 +119,8 @@ Align protein sequences using the MUSCLE algorithm.
 For alignment, you need a FASTA sequence file, a MAO file, and a SLURM script to submit the job. 
 To get the MAO file, the instructions are located in the [mao directory](./mao) in this repository.
 
+Submit a SLURM job with `sbatch muscle_align.sh`
+
 **SLURM Script: `muscle_align.sh`**
 ```
 #!/bin/bash
@@ -144,7 +146,7 @@ Xvfb :${DISPLAY_ID} -screen 0 1024x768x16 &
 # Run MUSCLE alignment
 megacc -a "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/muscle_align_protein.mao" -d "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/Tomato_P450_with_ref.fasta" -o "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg"
 ```
-Submit a SLURM job with `sbatch muscle_align.sh`
+
 
 
 
@@ -152,6 +154,7 @@ Submit a SLURM job with `sbatch muscle_align.sh`
    
 Use MEGA-CC to find the best model for the phylogenetic tree.
 
+Submit a SLURM job with `sbatch mega_model_selection.sh`
 **SLURM Script: `mega_model_selection.sh`**
 ```
 #!/bin/bash
@@ -177,4 +180,33 @@ output_tree_model="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_
 # Run MEGA to find the best model using the specified MAO file
 megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao -d $input_aln -o $output_tree_model
 ```
-Submit a SLURM job with `sbatch mega_model_selection.sh`
+
+
+**4. Generation of Phylogenetic Tree***
+
+Submit a SLURM job with `sbatch generate_tree.sh`
+
+**SLURM Script: `sbatch generate_tree.sh`**
+```
+#!/bin/bash
+#SBATCH --job-name=phylo_tree            # Job name
+#SBATCH --output=phylo_tree.out          # Standard output log
+#SBATCH --error=phylo_tree.err           # Standard error log
+#SBATCH --account=jkim6                  # Group providing CPU and memory resources
+#SBATCH --qos=jkim6                      # QOS to run job on (investment or burst)
+#SBATCH --time=500:00:00                 # Time limit hrs:min:sec
+#SBATCH --ntasks=2                       # Number of tasks
+#SBATCH --mem=15gb                       # Job memory request
+#SBATCH --mail-type=END,FAIL             # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=dshin1@ufl.edu       # Where to send mail	
+
+# Load the MEGA module
+module load mega/11.0.13
+
+# Define input and output files
+input_aln="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg"
+output_tree="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/phylo_tree.nwk"
+
+# Run MEGA to generate the phylogenetic tree using the specified MAO file
+megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/infer_NJ_nucleotide.mao -d $input_aln -o $output_tree
+```
