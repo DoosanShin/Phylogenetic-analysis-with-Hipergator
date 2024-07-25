@@ -142,8 +142,7 @@ Xvfb :${DISPLAY_ID} -screen 0 1024x768x16 &
 # Run MUSCLE alignment
 megacc -a "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/muscle_align_protein.mao" -d "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/Tomato_P450_with_ref.fasta" -o "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg"
 ```
-Submit a SLURM job with
-sbatch muscle_align.sh
+Submit a SLURM job with **sbatch muscle_align.sh**
 
 
 
@@ -176,5 +175,4 @@ output_tree_model="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_
 # Run MEGA to find the best model using the specified MAO file
 megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao -d $input_aln -o $output_tree_model
 ```
-Submit a SLURM job with
-sbatch "mega_model_selection.sh"
+Submit a SLURM job with **sbatch mega_model_selection.sh**
