@@ -1,0 +1,71 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 11:
+;
+;   Tamura K, Stecher G, and Kumar S.
+;   MEGA11: Molecular Evolutionary Genetics Analysis version 11.
+;   Molecular Biology and Evolution (2021) 38:3022-3027
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics Analysis Program for Automated and Iterative Data Analysis
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[Application Info]
+
+	Version                                 = 11.0.13
+	Build                                   = 11220624-x86_64
+	User Interface                          = CommandLine
+	Operating System                        = linux
+
+[General Info]
+
+	Data Type                               = amino acid
+	No. of Taxa                             =      317
+	No. of Sites                            =      148
+	Data File                               = '/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg'
+	Settings File                           = '/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao'
+	Command Line                            = /usr/local/bin/megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao -d /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg -o /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_model.xlsx
+
+[Analysis Settings]
+
+	Analysis                                = Model Selection (ML)
+	Tree to Use                             = Automatic (Neighbor-joining tree)
+	User Tree File                          = Not Applicable
+	Statistical Method                      = Maximum Likelihood
+	Substitutions Type                      = Amino acid
+	Gaps/Missing Data Treatment             = Partial deletion
+	Site Coverage Cutoff (%)                = 90
+	Branch Swap Filter                      = None
+	Number of Threads                       = 30
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snProtein
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+	Labelled Sites                          = All Sites
+	Labels to Include                       = 
+	Analysis                                = Model Selection (ML)
+	Tree to Use                             = Automatic (Neighbor-joining tree)
+	User Tree File                          = Not Applicable
+	Statistical Method                      = Maximum Likelihood
+	Substitutions Type                      = Amino acid
+	Gaps/Missing Data Treatment             = Partial deletion
+	Site Coverage Cutoff (%)                = 90
+	Branch Swap Filter                      = None
+	Number of Threads                       = 30
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snProtein
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+	Labelled Sites                          = All Sites
+	Labels to Include                       = 
+
+[Analysis Statistics]
+
+	Start Time                              = 07/25/24 02:26:36 PM
+	End Time                                = 07/26/24 10:21:02 AM
+	Execution Time                          = 71666.056 (seconds)
+	Max Heap Memory Used                    = 36.327 (MB)

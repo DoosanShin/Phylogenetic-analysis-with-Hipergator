@@ -1,0 +1,152 @@
+MEGA-CC 11.0.13 Molecular Evolutionary Genetics Analysis
+Build#: 11220624-x86_64
+07/25/24 02:26:36 PM
+
+Data file                                         : aligned_sequences.meg
+Status                                            : Reading header
+Current Progress                                  : 1% 
+Status                                            : Reading sequence dataStatus                                            : Storing information                                      Status                                            : Setting up Sequence/group names                                      Status                                            : Setting up genes/domains information                                      Status                                            : Organizing sequence information                                      Status                                            : Site/codon position types                                      
+Current Progress                                  : 100% 
+
+No. of Taxa                                       : 317
+Using the following analysis options:
+No. of Taxa=317
+Analysis=Model Selection (ML)
+
+Tree to Use                  : Automatic (Neighbor-joining tree)
+Statistical Method           : Maximum Likelihood
+Substitutions Type           : Amino acid
+Gaps/Missing Data Treatment  : Partial deletion
+Site Coverage Cutoff (%)     : 90
+Branch Swap Filter           : None
+Number of Threads            : 30
+Has Time Limit               : False
+Maximum Execution Time       : -1
+datatype                     : snProtein
+MissingBaseSymbol            : ?
+IdenticalBaseSymbol          : .
+GapSymbol                    : -
+Labelled Sites               : All SitesProgress and Status
+
+Status                       : Preparing data
+Current Progress             : 1% Current Progress             : 0%                                       Current Progress             : 1%                                       Current Progress             : 2%                                       Current Progress             : 3%                                       Current Progress             : 4%                                       Current Progress             : 5%                                       Current Progress             : 6%                                       Current Progress             : 7%                                       Current Progress             : 8%                                       Current Progress             : 9%                                       Current Progress             : 10%                                       Current Progress             : 11%                                       Current Progress             : 12%                                       Current Progress             : 13%                                       Current Progress             : 14%                                       Current Progress             : 15%                                       Current Progress             : 16%                                       Current Progress             : 17%                                       Current Progress             : 18%                                       Current Progress             : 19%                                       Current Progress             : 20%                                       Current Progress             : 21%                                       Current Progress             : 22%                                       Current Progress             : 23%                                       Current Progress             : 24%                                       Current Progress             : 25%                                       Current Progress             : 26%                                       Current Progress             : 27%                                       Current Progress             : 28%                                       Current Progress             : 29%                                       Current Progress             : 30%                                       Current Progress             : 31%                                       Current Progress             : 32%                                       Current Progress             : 33%                                       Current Progress             : 34%                                       Current Progress             : 35%                                       Current Progress             : 36%                                       Current Progress             : 37%                                       Current Progress             : 38%                                       Current Progress             : 39%                                       Current Progress             : 40%                                       Current Progress             : 41%                                       Current Progress             : 42%                                       Current Progress             : 43%                                       Current Progress             : 44%                                       Current Progress             : 45%                                       Current Progress             : 46%                                       Current Progress             : 47%                                       Current Progress             : 48%                                       Current Progress             : 49%                                       Current Progress             : 50%                                       Current Progress             : 51%                                       Current Progress             : 52%                                       Current Progress             : 53%                                       Current Progress             : 54%                                       Current Progress             : 55%                                       Current Progress             : 56%                                       Current Progress             : 57%                                       Current Progress             : 58%                                       Current Progress             : 60%                                       Current Progress             : 61%                                       Current Progress             : 62%                                       Current Progress             : 63%                                       Current Progress             : 64%                                       Current Progress             : 65%                                       Current Progress             : 66%                                       Current Progress             : 67%                                       Current Progress             : 68%                                       Current Progress             : 69%                                       Current Progress             : 70%                                       Current Progress             : 71%                                       Current Progress             : 72%                                       Current Progress             : 73%                                       Current Progress             : 74%                                       Current Progress             : 75%                                       Current Progress             : 76%                                       Current Progress             : 77%                                       Current Progress             : 78%                                       Current Progress             : 79%                                       Current Progress             : 80%                                       Current Progress             : 81%                                       Current Progress             : 82%                                       Current Progress             : 83%                                       Current Progress             : 84%                                       Current Progress             : 85%                                       Current Progress             : 86%                                       Current Progress             : 87%                                       Current Progress             : 88%                                       Current Progress             : 89%                                       Current Progress             : 90%                                       Current Progress             : 91%                                       Current Progress             : 92%                                       Current Progress             : 93%                                       Current Progress             : 94%                                       Current Progress             : 95%                                       Current Progress             : 96%                                       Current Progress             : 97%                                       Current Progress             : 98%                                       Current Progress             : 99%                                       Current Progress             : 100%                                       
+No. of Seqs                  : 317
+No. of Sites                 : 148
+Status                       : Making initial tree
+Thread-2                     : Dayhoff + I
+Current Progress             : 1% 
+Thread-3                     : Dayhoff + G
+Current Progress             : 3% 
+Thread-4                     : Dayhoff + G + I
+Current Progress             : 5% 
+Thread-5                     : Dayhoff + F
+Current Progress             : 7% 
+Thread-6                     : Dayhoff + I + F
+Current Progress             : 8% 
+Thread-7                     : Dayhoff + G + F
+Current Progress             : 10% 
+Thread-8                     : Dayhoff + G + I + F
+Current Progress             : 12% 
+Thread-9                     : JTT
+Current Progress             : 14% 
+Thread-10                    : JTT + I
+Current Progress             : 16% 
+Thread-11                    : JTT + G
+Current Progress             : 17% 
+Thread-12                    : JTT + G + I
+Current Progress             : 19% 
+Thread-13                    : JTT + F
+Current Progress             : 21% 
+Thread-14                    : JTT + I + F
+Current Progress             : 23% 
+Thread-15                    : JTT + G + F
+Current Progress             : 25% 
+Thread-16                    : JTT + G + I + F
+Current Progress             : 26% 
+Thread-17                    : WAG
+Current Progress             : 28% 
+Thread-18                    : WAG + I
+Current Progress             : 30% 
+Thread-19                    : WAG + G
+Current Progress             : 32% 
+Thread-20                    : WAG + G + I
+Current Progress             : 33% 
+Thread-21                    : WAG + F
+Current Progress             : 35% 
+Thread-22                    : WAG + I + F
+Current Progress             : 37% 
+Thread-23                    : WAG + G + F
+Current Progress             : 39% 
+Thread-24                    : WAG + G + I + F
+Current Progress             : 41% 
+Thread-25                    : LG
+Current Progress             : 42% 
+Thread-26                    : LG + I
+Current Progress             : 44% 
+Thread-27                    : LG + G
+Current Progress             : 46% 
+Thread-28                    : LG + G + I
+Current Progress             : 48% 
+Thread-29                    : LG + F
+Current Progress             : 50% 
+Thread-30                    : LG + I + F
+Current Progress             : 51% 
+Thread-6                     : LG + G + F
+Current Progress             : 53% 
+Thread-5                     : LG + G + I + F
+Current Progress             : 55% 
+Thread-29                    : mtREV24
+Current Progress             : 57% 
+Thread-30                    : mtREV24 + I
+Current Progress             : 58% 
+Thread-25                    : mtREV24 + G
+Current Progress             : 60% 
+Thread-26                    : mtREV24 + G + I
+Current Progress             : 62% 
+Thread-10                    : mtREV24 + F
+Current Progress             : 64% 
+Thread-21                    : mtREV24 + I + F
+Current Progress             : 66% 
+Thread-22                    : mtREV24 + G + F
+Current Progress             : 67% 
+Thread-9                     : mtREV24 + G + I + F
+Current Progress             : 69% 
+Thread-1                     : cpREV
+Current Progress             : 71% 
+Thread-2                     : cpREV + I
+Current Progress             : 73% 
+Thread-14                    : cpREV + G
+Current Progress             : 75% 
+Thread-13                    : cpREV + G + I
+Current Progress             : 76% 
+Thread-17                    : cpREV + F
+Current Progress             : 78% 
+Thread-18                    : cpREV + I + F
+Current Progress             : 80% 
+Thread-29                    : cpREV + G + F
+Current Progress             : 82% 
+Thread-30                    : cpREV + G + I + F
+Current Progress             : 83% 
+Thread-21                    : rtREV
+Current Progress             : 85% 
+Thread-10                    : rtREV + I
+Current Progress             : 87% 
+Thread-21                    : rtREV + G
+Current Progress             : 89% 
+Thread-10                    : rtREV + G + I
+Current Progress             : 91% 
+Thread-20                    : rtREV + F
+Current Progress             : 92% 
+Thread-19                    : rtREV + I + F
+Current Progress             : 94% 
+Thread-7                     : rtREV + G + F
+Current Progress             : 96% 
+Thread-8                     : rtREV + G + I + F
+Current Progress             : 98% 
+
+       100% Analysis Complete                                                               
+ 
+MEGA has completed the requested action
+
+Terminating the megacc process with successful exit status
+
