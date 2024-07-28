@@ -88,6 +88,7 @@ The result file will be created in ".csv" format.
 In the result, the best model for tree building is the one with the lowest BIC and AICc scores.
 
 -> BIC evaluates how well a model explains the data by considering the maximum likelihood and adds a penalty for the number of parameters. This discourages overfitting by preferring simpler models when possible.
+
 -> AICc is a corrected version of AIC, which is more appropriate when the number of data points is small. AIC evaluates the goodness of fit and complexity of the model, but AICc adds an additional penalty when the number of parameters is high relative to the number of data points.
 
 As an example, the LG + G model is the best in the image below.
