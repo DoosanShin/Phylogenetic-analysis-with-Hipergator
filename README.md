@@ -84,6 +84,16 @@ megacc -a "/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/muscle_align_
    
 Use MEGA-CC to find the best model for the phylogenetic tree.
 
+The result file will be created in ".csv" format.
+In the result, the best model for tree building is the one with the lowest BIC and AICc scores.
+
+-> BIC evaluates how well a model explains the data by considering the maximum likelihood and adds a penalty for the number of parameters. This discourages overfitting by preferring simpler models when possible.
+-> AICc is a corrected version of AIC, which is more appropriate when the number of data points is small. AIC evaluates the goodness of fit and complexity of the model, but AICc adds an additional penalty when the number of parameters is high relative to the number of data points.
+
+As an example, the LG + G model is the best in the image below.
+<img width="552" alt="image" src="https://github.com/user-attachments/assets/08bc2772-7df0-42ff-bef5-6413b1ea3a74">
+
+
 Submit a SLURM job with `sbatch mega_model_selection.sh`
 **SLURM Script: `mega_model_selection.sh`**
 ```
@@ -105,12 +115,11 @@ module load mega/11.0.13
 
 # Define input and output files
 input_aln="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/aligned_sequences.meg"
-output_tree_model="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_model.xlsx"
+output_tree_model="/blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/tree_model.csv"
 
 # Run MEGA to find the best model using the specified MAO file
 megacc -a /blue/jkim6/dshin1/Phylogenetic_tree/tomato_CYP450_tree/model_sel_ml_amino_acid.mao -d $input_aln -o $output_tree_model
 ```
-
 
 ***4. Generation of Phylogenetic Tree***
 
