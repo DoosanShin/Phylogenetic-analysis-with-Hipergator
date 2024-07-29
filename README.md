@@ -223,4 +223,7 @@ module list
 
 #checking allocated resources
 slurmInfo -g jkim6
+
+#Bursting QOS
+https://help.rc.ufl.edu/doc/Account_and_QOS_limits_under_SLURM
 ```
